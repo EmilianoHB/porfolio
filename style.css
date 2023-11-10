@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background: #DA5757;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    text-decoration: none;
+  }  
+
+ul{
+    list-style: none;
+}
+
+h1{
+    text-shadow: 8px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.conteiner-home{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.item-home{
+    flex: 1;
+    align-self: center;
+}
+
+.item-home:first-child{
+    padding-left: 55px;
+}
+
+.item-home:nth-child(2){
+    flex: 0.1;
+    flex-direction: column-reverse;
+    align-self:end;
+}
+
+.item-home:last-child{
+    flex: 1;
+    align-self: auto;
+}
+
+.foto-emi-sobremi{
+    height: 500px;
+    width: 400px;
+    align-self: center;
+    border-radius: 40px;
+
+}
+.conteiner-sobremi{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.item-sobremi{
+    flex: 1;
+    align-self: center;
+    padding-left: 55px;
+}
+
+#aboutMe{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: normal;
+    text-shadow: 8px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.p-sobremi{
+    color: #000;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    text-shadow: 8px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.boton-sobremi{
+    width: 15.0625rem;
+    height: 4.375rem;
+    flex-shrink: 0;
+    border-radius: 3.125rem;
+    background: #000;
+}
+
+.boton-sobremi:first-child{
+    flex-shrink: 0;
+    color: #DA5757;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+
+.conteiner-proyextos{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#proyectos{
+    text-shadow: 8px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Roboto;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    flex: 0.5;
+    padding: 30px;
+}
+
+.dinoQueMira{
+    width: 18.75rem;
+    height: 18.75rem;
+    align-self: center;
+    
+}
+
+.conteiner-skills{
+    height: 100vh;
+}
+
+.cont-skills{
+    display: flex;
+    flex-direction: row;
+    flex-flow: nowrap;
+    height: 80vh;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#skills{
+    text-shadow: 8px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    padding: 30px;
+}
+
+h3{
+    text-shadow: 8px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 2rem;
+}
+
+.conteiner-edu{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#education{
+    text-shadow: 8px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    padding: 30px;
+}
+
+.conteiner-edu h3{
+    padding: 20px;
+}
+
+.listas-edu{
+    padding-left: 50px;
+    color: #000;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+.conteiner-contact{
+    position: relative;
+    height: 100vh;
+}
+
+.article-contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#contactame{
+    color: #000;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    padding: 30px;
+}
+
+#contactame strong{
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.p-form{
+    width: 33.3125rem;
+    color: #000;
+    font-family: Roboto;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+.correito{
+    display: flex;
+}
+
+.correito p{
+    color: #000;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+.redecitas{
+    width: 16.39088rem;
+    height: 3.30188rem;
+    flex-shrink: 0;
+}
+.redecitas li{
+    display: inline-block;
+}
+
+label input{
+    width: 36.375rem;
+    height: 4.5625rem;
+    flex-shrink: 0;
+    border-radius: 2.5rem;
+    background: #e9dcdc;
+}
+
+input::placeholder{
+    padding: 20px;
+    font-size: 1.25rem;
+}
+
+.botoncito-del-love-xD{
+    width: 36.375rem;
+    height: 3.4rem;
+    flex-shrink: 0;
+    border-radius: 2.5rem;
+    background: rgba(0, 0, 0, 0.25);
+}
